@@ -1,0 +1,445 @@
+/* FILEPATH: /C:/Users/pkenny/OneDrive - Ortho Molecular Products/Documents/Code/LMRC-Homepage/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Black&display=swap');
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #DCF2FF;
+    
+}
+
+/* Add some basic styling */
+h1 {
+    /* font-size: 48px; */
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h6 {
+    font-weight: bold;
+
+}
+
+p {
+    color: #666;
+    font-size: 12px;
+
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    display: fixed;
+}
+
+.btn {
+    background-color: #003A52;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#container-1{
+    position: relative;
+    min-height: 70vh;
+
+}
+.doctor-1 {
+    z-index: -2;
+}
+
+
+.page-divider {
+    background-color: #003A52;
+    width: 100vw;
+    left: 0rem;
+    height: 150px;
+    top: 40rem;
+    transform: rotate(-2deg);
+    z-index: 2;
+}
+
+
+#container-2 {
+    position: relative;
+    top: -30vw;
+    left: -20vw;
+    z-index: -1;
+
+}
+.home-container-2-lg-text {
+    top: 20rem;
+    font-size: 7%;
+    font-weight: bold;
+    font-family: 'Merriweather',  sans-serif;
+}
+
+
+.home-container-2-md-text {
+    font-size: 6rem;;
+    font-family: 'Roboto',  sans-serif;
+}
+
+
+.home-container-2-sm-text {
+    font-size: 2rem;
+    font-family: 'Roboto',  sans-serif;
+}
+
+.home-container-2-paragraph {
+    font-size: 1.5vw;
+    font-family: 'Roboto',  sans-serif;
+    width: 60%;
+}
+
+.home-container-content-2 {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: calc(0.89 * 100vw);
+}
+
+.container-2-text-box {
+    position: relative;
+    width: 55%;
+    top: 42vw;
+    left: 13vw;
+}
+#container-3 {
+    background-image: url(images/Blob-3.svg);
+    background-size: 100%;
+    position: relative;
+    top: -40vw;
+    background-repeat: no-repeat;
+    height: calc(0.48 * 100vw);
+}
+
+.home-container-3-paragraph {
+    font-family: "Roboto", sans-serif;
+    font-size: min(2.2vw, 1.5rem);
+    font-weight: 900;
+    text-align: right;
+    text-wrap: balance
+}
+
+.home-container-3-header {
+    font-family:  "Merriweather", sans-serif;
+    font-size: min(8vw, 8rem);
+    text-align: right;
+
+}
+.home-container-3-header-sm {
+    font-family:  "Roboto", sans-serif;
+    font-size: min(5vw, 5rem);
+    text-align: right;
+    
+}
+
+.home-container-3-description {
+    font-size: 2.2vw;
+    font-family: "Roboto", sans-serif;
+    text-align: right;
+}
+
+
+
+
+#container-4 {
+    position: relative;
+    top: -50vw;
+}
+
+.home-container-4-header {
+    font-size: min(8vw, 8rem);
+    font-family: "Merriweather", sans-serif;
+}
+.home-container-4-header-sm {
+    font-size: min(5vw, 5rem);
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+.home-container-4-description {
+    font-size: 2.2vw;
+    font-family: "Roboto", sans-serif;
+}
+
+.home-content-container-4  {
+    left: 15vw;
+    position: relative;
+}
+.eye {
+    width: 20vw;
+    left: min(5vw, 5rem);
+}
+#container-5 {
+    position: relative;
+    top: -40vw;
+    background-image: url(images/BLOB-4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(1.165 * 100vw);
+}
+
+.home-container-5-header {
+    font-size: min(8vw, 8rem);
+    font-family: "Merriweather", sans-serif;
+    text-align: right;
+}
+.home-container-5-header-sm {
+    font-size: min(5vw, 5rem);
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    text-align: right;
+}
+.home-container-5-description {
+    font-size: 2.2vw;
+    font-family: "Roboto", sans-serif;
+    text-align: right;
+}
+
+.home-content-container-5  {
+    position: relative;
+    top: 9vw;
+}
+
+.health-report {
+    width: 25vw;
+    left: 5vw;
+}
+
+#container-6 {
+    position: relative;
+    top: -100vw;
+    left: 20vw;
+}
+
+.home-container-6-header {
+    font-size: min(8vw, 8rem);
+    font-family: "Merriweather", sans-serif;
+}
+.home-container-6-header-sm {
+    font-size: 5vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+.home-container-6-description {
+    font-size: 2.2vw;
+    font-family: "Roboto", sans-serif;
+}
+
+.cross {
+    position: relative;
+    width: 20vw;
+    top: -14vw;
+    left: 3vw;
+
+}
+
+.blob-1 {
+    position: absolute;
+    z-index: -1;
+    width: 75rem;
+    left: -20rem;
+    top: -12rem;
+
+}
+
+.blob-2 {
+    position: absolute;
+    width: 75rem;
+    left: -1rem;
+    bottom: -50rem;
+    z-index: -1;
+
+}
+
+.blob-3 {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    bottom: -130rem;
+    z-index: -1;
+}
+
+.blob-4 {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    right: 0rem;
+    bottom: -275rem;
+    z-index: -1;
+}
+.blob-container {
+    background-image: url('/images/Blob-3.png');
+    background-repeat: round;
+    background-size: auto;
+
+
+}
+ 
+.clock {
+    position: absolute;
+    width: 300px;
+    bottom: -35rem;
+    right: 18rem;
+    z-index: -1;
+
+}
+.doctor-1 {
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.doctor-2 {
+    width: 50%;
+    position: relative;
+    z-index: -1;
+    top: -50px;
+}
+
+
+.lead-paragraph {
+    top: 5rem;
+}
+
+
+
+
+.lead-description {
+    font-size: 1.2rem;
+}
+
+.info-card-container {
+  /* border-radius: 25px; */
+  background-image: radial-gradient(#acd5e8 , #dcf3ff);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.healthcare-svg-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.info-card-title {
+    text-align: left;
+}
+
+.info-card {
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+/* 
+Card Styling
+
+*/
+
+
+
+/* Add Bootstrap breakpoint indicators */
+/* Extra Small */
+@media (max-width: 576px) {
+    body::before {
+        content: "XS";
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #f8d7da;
+        color: #721c24;
+        padding: 4px 8px;
+        font-size: 12px;
+        font-weight: bold;
+        z-index: 9999;
+    }
+}
+/* Small */
+@media (min-width: 576px) and (max-width: 768px) {
+    body::before {
+        content: "SM";
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fff3cd;
+        color: #856404;
+        padding: 4px 8px;
+        font-size: 12px;
+        font-weight: bold;
+        z-index: 9999;
+    }
+}
+/* Medium */
+@media (min-width: 768px) and (max-width: 992px) {
+    body::before {
+        content: "MD";
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #d1ecf1;
+        color: #0c5460;
+        padding: 4px 8px;
+        font-size: 12px;
+        font-weight: bold;
+        z-index: 9999;
+    }
+}
+/* Large */
+@media (min-width: 992px) and (max-width: 1200px) {
+    body::before {
+        content: "LG";
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #cce5ff;
+        color: #004085;
+        padding: 4px 8px;
+        font-size: 12px;
+        font-weight: bold;
+        z-index: 9999;
+    }
+}
+
+/* Extra Large */
+@media (min-width: 1200px) {
+    body::before {
+        content: "XL";
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #d4edda;
+        color: #155724;
+        padding: 4px 8px;
+        font-size: 12px;
+        font-weight: bold;
+        z-index: 9999;
+    }
+}
+
+/* XXL */
+@media (min-width: 1400px) {
+    body::before {
+        content: "XxL";
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #d4edda;
+        color: #155724;
+        padding: 4px 8px;
+        font-size: 12px;
+        font-weight: bold;
+        z-index: 9999;
+    }
+}
